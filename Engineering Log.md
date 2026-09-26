@@ -313,3 +313,37 @@ After completing the initial Python sequence, I want to pause and rethink the ne
 ## Sources
 
 Same sources referenced in the **24 September 2026** log.
+
+---
+
+## Update — 26 September, 10:45 PM
+
+Continued working on the Python foundation.
+
+Completed two more topics:
+
+* Conditional Statements
+* Loops
+
+Added:
+
+* `09_Conditional_Statements.ipynb`
+* `10_Loops.ipynb`
+
+With this, I have completed the initial Python sequence from **basics through loops**.
+
+### Reflection
+
+This feels like a small but important milestone in the Python portion of AI Sadhana.
+
+The next step is not to keep adding Python topics blindly. I want to pause and think about what should come next and how Python should connect to the actual AI/ML journey.
+
+### Next
+
+Tomorrow I want to brainstorm the next trajectory for AI Sadhana, particularly:
+
+* What Python topics are still necessary?
+* When should functions and modules be introduced?
+* When should NumPy enter?
+* Where should mathematics fit?
+* When should I start introducing actual AI/ML concepts?

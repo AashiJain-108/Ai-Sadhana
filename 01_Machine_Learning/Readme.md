@@ -37,17 +37,7 @@ A learning algorithm takes training data and uses it to determine or adjust the 
 
 In simplified form:
 
-Training Data
-      ↓
-Learning Algorithm
-      ↓
-Parameter Adjustment
-      ↓
-Trained Model
-      ↓
-Prediction on New Data
-
-**Data → Algorithm → Learned Parameters/Structure → Model → Prediction**
+**Training Data → Learning Algorithm → Parameter Adjustment → Trained Model → Prediction on New Data**
 
 ### Source
 

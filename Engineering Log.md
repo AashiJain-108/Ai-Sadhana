@@ -347,3 +347,38 @@ Tomorrow I want to brainstorm the next trajectory for AI Sadhana, particularly:
 * When should NumPy enter?
 * Where should mathematics fit?
 * When should I start introducing actual AI/ML concepts?
+
+
+# Engineering Log — 27 September 2026
+
+## What I Worked On
+
+Today I tried to reconstruct my actual Ai-Sadhana goal I came down to 2 paths both I need to follow and was thinking which to follow first or take it simultaneously (mathematics for ai or advance python) both i was thinking of adding in 00-ai-foundation folder
+
+## What I Understood
+
+It would be best to take both mathematics_for_ai and advance python simultaneously  
+
+## What I Built
+just build understanding and was working on 1 file for mathematics_for_ai but as it is taking longer to complete so maybe commit it by tomorrow or day after tomorrow (quality matters)
+
+## Reflection
+
+The repository is slowly starting to take shape.
+
+At this stage, the goal is not to make it look impressive.
+
+The goal is to build something that I can genuinely understand and later use to explain AI concepts to someone starting from zero.
+
+## Next
+work and post regarding mathematics_for_ai and advance python
+
+## Sources
+
+### for mathematics_for_ai roadmap:
+
+### Courses / Tutorials
+
+* Root Access (roadmap of mathematics foundation)
+
+---

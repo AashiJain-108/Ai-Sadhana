@@ -42,3 +42,9 @@
 |                    | **Loss Landscapes**            | Helps understand how optimization behaves around minima and saddle points.              |
 |                    | **Regularization**             | Controls model complexity and helps reduce overfitting.                                 |
 |                    | **Constraints**                | Important in constrained optimization problems such as SVMs.                            |
+
+
+## Source
+
+### Tutorial/course
+Root Access(Roadmap for Mathematics Foundation)

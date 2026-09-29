@@ -382,3 +382,20 @@ work and post regarding mathematics_for_ai and advance python
 * Root Access (roadmap of mathematics foundation)
 
 ---
+### 28 September 2026
+
+Currently working through the statistics and linear algebra foundation needed for the upcoming mathematics sections.
+
+Taking some time to learn and understand the concepts properly before adding them to AI Sadhana.
+
+Repository progress is slower for now, but the foundation work is ongoing.
+
+---
+
+### 29 September 2026
+
+Currently working through the statistics and linear algebra foundation needed for the upcoming mathematics sections.
+
+Taking some time to learn and understand the concepts properly before adding them to AI Sadhana.Also preparing for my NPTEL Deep learning course Exam alongside it.
+
+Repository progress is slower for now, but the foundation work is ongoing.

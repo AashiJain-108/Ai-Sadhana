@@ -49,6 +49,6 @@ Imagine deciding whether to go to an outdoor concert (the neuron firing).
 
 $$\theta > n w - p$$
 
-*(where $w$ = excitatory weight, $p$ = inhibitory weight)*
+*(where w = excitatory weight, p = inhibitory weight)*
 
 

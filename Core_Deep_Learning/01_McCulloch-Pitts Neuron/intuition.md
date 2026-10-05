@@ -26,5 +26,5 @@ graph TD
 
 ```
 
-  **g** aggregates the inputs and the function **f** takes a decision based on this aggregation
+  function **g** aggregates the inputs while the function **f** takes a decision based on this aggregation
 

@@ -25,5 +25,6 @@ graph TD
     style g fill:#fff,stroke:#333,stroke-width:1px,color:#000
 
 ```
- **g** = aggregates the inputs 
- **f** = takes a decision based on this aggregation of function **g**
+
+ - **g** = aggregates the inputs 
+ - **f** = takes a decision based on this aggregation of function **g**

@@ -2,17 +2,28 @@ McCulloch (neuroscientist) and Pitts (logician) proposed a highly simplified com
 
 ```mermaid
 graph TD
-    x1["x1"] --> g
-    x2["x2"] --> g
+    %% Inputs
+    x1["x₁ ∈ {0, 1}"] --> g
+    x2["x₂"] --> g
     dots1["..."] --> g
     dots2["..."] --> g
-    xn["xn ∈ {0, 1}"] --> g
+    xn["xₙ ∈ {0, 1}"] --> g
 
-    subgraph Neuron ["Neuron Model"]
-        g["g (Aggregation)"] --> f["f (Activation)"]
+    %% Central Neuron Node Split
+    subgraph Neuron ["Artificial Neuron"]
+        g["g (Pre-activation / Summation)"]
+        f["f (Activation Function)"]
+        g --> f
     end
 
+    %% Output
     f --> y["y ∈ {0, 1}"]
+
+    %% Styling
+    style Neuron fill:none,stroke:#333,stroke-width:2px
+    style f fill:#888,stroke:#333,stroke-width:1px,color:#fff
+    style g fill:#fff,stroke:#333,stroke-width:1px,color:#000
+
 ```
 
   **g** aggregates the inputs and the function **f** takes a decision based on this aggregation

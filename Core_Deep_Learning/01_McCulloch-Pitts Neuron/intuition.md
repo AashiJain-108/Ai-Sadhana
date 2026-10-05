@@ -8,8 +8,8 @@ graph TD
     dots2["..."] --> g
     xn["xn ∈ {0, 1}"] --> g
 
-    subgraph Neuron ["Neuron"]
-        g(( "g (Sum)" )) --> f(( "f (Step)" ))
+    subgraph Neuron ["Neuron Model"]
+        g["g (Aggregation)"] --> f["f (Activation)"]
     end
 
     f --> y["y ∈ {0, 1}"]

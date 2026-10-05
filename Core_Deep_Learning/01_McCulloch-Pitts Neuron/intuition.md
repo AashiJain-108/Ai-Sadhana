@@ -32,7 +32,7 @@ graph TD
  - weight associated with communication links may be excitatory(+ve) or inhabihary(-ve)
  - In the perceptron model, excitatory inputs promote the activation of the neuron, while inhibitory inputs oppose it.
 ------------------------------
-## Key Differences
+### Key Differences
 
 | Feature | Excitatory Inputs | Inhibitory Inputs |
 |---|---|---|
@@ -41,7 +41,7 @@ graph TD
 | Effect on Activation | Pushes the neuron closer to its activation threshold. | Pulls the neuron away from its activation threshold. |
 | Biological Analogy | Neurotransmitters that encourage a neuron to fire  | Neurotransmitters that prevent a neuron from firing|
 
-## A Simple Analogy
+### A Simple Analogy
 Imagine deciding whether to go to an outdoor concert (the neuron firing).
 
 * Excitatory input: "Your favorite band is playing" has a positive weight. It heavily pushes you toward going.
@@ -50,5 +50,17 @@ Imagine deciding whether to go to an outdoor concert (the neuron firing).
 $$\theta > n w - p$$
 
 *(where w = excitatory weight, p = inhibitory weight)*
+
+### output
+**Binary**: neuron may fire(1) or maynot fire(0)
+
+- MP neuron -> Activation function
+
+$$g(x_1, x_2, \dots, x_n) = g(\mathbf{x}) = \sum_{i=1}^{n} x_i$$
+
+$$y = f(g(\mathbf{x})) = \begin{cases} 1 & \text{if } g(\mathbf{x}) \ge \theta \\ 0 & \text{if } g(\mathbf{x}) < \theta \end{cases}$$
+
+($\theta$ is called the thresholding parameter.) 
+This is called **Thresholding Logic**.
 
 

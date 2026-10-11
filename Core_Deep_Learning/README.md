@@ -2,12 +2,15 @@
 
 A structured study of Deep Learning covering core concepts, mathematical foundations, intuition, and practical implementations.
 
-# How to Study Deep Learning
+### How to Study Deep Learning
 
 1) Concept Building
 2) Purpose: Why do we need it?
 3) Connection: What does it depend on, and what does it enable?
 4) Recall/Revision
+
+### Deep Learning LifeCycle:
+data-> preprocessing -> model-> predictions-> loss-> update-> repeat
 
 ## Acknowledgments
 

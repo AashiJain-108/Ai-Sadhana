@@ -116,3 +116,11 @@ A zero coefficient means that feature contributes nothing through that coefficie
 - Too little regularization: Risk of overfitting.
 - Too much regularization: Risk of underfitting.
 - Goal: Good performance on unseen data, not merely low training error.
+
+
+- Dropout forces the network to not rely on any single neuron.
+- Weight decay prevents any single weight from growing too large.
+- Batch normalization smooths the loss landscape so the optimizer finds flatter, more generalizable minima.
+- Layer normalization does the same thing but works where batch normalization fails (small batches, variable-length sequences). 
+- RMSNorm does it 10% faster by dropping the mean calculation.
+Each technique is simple. Together, they're the difference between a model that memorizes and one that generalizes

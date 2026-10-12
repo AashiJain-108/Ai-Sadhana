@@ -4,8 +4,8 @@
 
 | Technique | How it works | Main purpose |
 |---|---|---|
-| L1 (Lasso) | Adds \(\lambda\sum_i\|w_i\|\) to the loss | Encourages sparse weights; can perform feature selection |
-| L2 (Ridge) | Adds \(\lambda\sum_i w_i^2\) to the loss | Shrinks large weights |
+| L1 (Lasso) | Adds $\lambda\sum_i\|w_i\|$ to the loss | Encourages sparse weights; can perform feature selection |
+| L2 (Ridge) | Adds $\lambda\sum_i w_i^2$ to the loss | Shrinks large weights |
 | Elastic Net | Combines L1 and L2 | Balances sparsity and weight shrinkage |
 | Dropout | Randomly drops activations during training | Reduces reliance on particular neurons |
 | Early stopping | Stops when validation performance ceases to improve | Prevents excessive fitting to training data |
@@ -14,19 +14,19 @@
 
 ### The mathematical connection
 
-\[
+$$
 \boxed{J(\theta)=L_{\text{data}}(\theta)+\lambda R(\theta)}
-\]
+$$
 
 For L2 regularization:
 
-\[
+$$
 J(\theta)=L_{\text{recon}}+\lambda\sum_i w_i^2
-\]
+$$
 
-- \(L_{\text{recon}}\): how accurately the autoencoder reconstructs its input.
-- \(R(\theta)\): the regularization penalty.
-- \(\lambda\): controls the strength of the penalty.
+- $L_{\text{recon}}$: how accurately the autoencoder reconstructs its input.
+- $R(\theta)$: the regularization penalty.
+- $\lambda$: controls the strength of the penalty.
 
 One distinction to remember: L1/L2 explicitly penalize parameters, whereas dropout, early stopping, and data augmentation work through different mechanisms. Batch normalization and layer normalization primarily normalize activations; any regularizing effect they provide is indirect and context-dependent.
 
@@ -42,13 +42,13 @@ Imagine a student preparing for an exam.
 
 Regularization adds a penalty for model complexity to the original training loss.
 
-\[
+$$
 \boxed{J(w)=L_{\text{data}}(w)+\lambda R(w)}
-\]
+$$
 
-- \(L_{\text{data}}\): How wrong the model's predictions are.
-- \(R(w)\): Penalty that discourages certain parameter values.
-- \(\lambda\): Controls how strongly the penalty matters.
+- $L_{\text{data}}$: How wrong the model's predictions are.
+- $R(w)$: Penalty that discourages certain parameter values.
+- $\lambda$: Controls how strongly the penalty matters.
 
 Remember: the model minimizes the combined objective, not just prediction error.
 
@@ -58,9 +58,9 @@ Remember: the model minimizes the combined objective, not just prediction error.
 
 **Lasso Regression**
 
-\[
+$$
 J=\text{MSE}+\lambda\sum_j|w_j|
-\]
+$$
 
 - Penalizes the absolute values of coefficients.
 - Can make some coefficients exactly zero.
@@ -71,9 +71,9 @@ J=\text{MSE}+\lambda\sum_j|w_j|
 
 **Ridge Regression**
 
-\[
+$$
 J=\text{MSE}+\lambda\sum_jw_j^2
-\]
+$$
 
 - Penalizes the squares of coefficients.
 - Usually shrinks coefficients toward zero, but not exactly to zero.
@@ -84,16 +84,16 @@ J=\text{MSE}+\lambda\sum_jw_j^2
 
 **Elastic Net**
 
-\[
+$$
 J=\text{MSE}+\lambda\left[(1-r)\sum_j|w_j|+r\sum_jw_j^2\right]
-\]
+$$
 
 - Combines L1 and L2 penalties.
 - Can select features while also shrinking coefficients.
-- \(r=0\): Ridge-like; \(r=1\): Lasso-like, using this formula's convention.
+- $r=0$: Ridge-like; $r=1$: Lasso-like, using this formula's convention.
 - Analogy: removes unnecessary items and reduces the size of the remaining items.
 
-Important: In scikit-learn's `ElasticNet`, the mixing parameter is named `l1_ratio`. It corresponds to \(r\) in the formula above. The overall regularization strength is called `alpha` in scikit-learn, whereas \(\lambda\) is commonly used in mathematical notes.
+Important: In scikit-learn's `ElasticNet`, the mixing parameter is named `l1_ratio`. It corresponds to $r$ in the formula above. The overall regularization strength is called `alpha` in scikit-learn, whereas $\lambda$ is commonly used in mathematical notes.
 
 ## 3. Visual comparison of coefficients
 

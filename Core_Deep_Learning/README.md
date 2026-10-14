@@ -22,3 +22,4 @@ His masterfully delivered lectures served as a major cornerstone in my deep lear
 
 ## References / Additional sources:
 http://neuralnetworksanddeeplearning.com/ (Neural Networks and Deep Learning is a free online book)
+Reading a great book on deep learning by Ian Goodfellow, Yoshua Bengio and Aaron Courville

@@ -399,3 +399,455 @@ Currently working through the statistics and linear algebra foundation needed fo
 Taking some time to learn and understand the concepts properly before adding them to AI Sadhana.Also preparing for my NPTEL Deep learning course Exam alongside it.
 
 Repository progress is slower for now, but the foundation work is ongoing.
+
+# Engineering Log — 30 September 2026
+
+## What I Worked On
+
+Today I was mainly occupied with university work and assignments. Alongside that, I spent a little time revisiting the Python fundamentals repository for AI Sadhana.
+
+## What I Studied
+
+I continued reviewing Python fundamentals while balancing my university responsibilities.
+
+## Reflection
+
+Progress on AI Sadhana was limited today, but I was still trying to maintain some connection with the work despite having other academic responsibilities.
+
+Not every day will allow me to make significant progress on the repository, and that is something I need to account for in the long-term journey.
+
+## Next
+
+Continue revisiting Python fundamentals and gradually return to building the foundation of AI Sadhana.
+
+---
+
+# Engineering Log — 1 October 2026
+
+## What I Worked On
+
+Today I returned to the Python fundamentals portion of AI Sadhana, focusing on conditional statements.
+
+## What I Studied
+
+I worked on understanding conditional statements in Python and how they allow a program to make decisions based on conditions.
+
+## What I Understood
+
+Conditional statements are an important building block of programming. Before moving toward more advanced implementations, I need to be comfortable with how programs evaluate conditions and choose between different execution paths.
+
+## Reflection
+
+The Python foundation is still a work in progress. Revisiting these concepts is useful because I want the repository to be understandable to someone starting from the beginning, not just someone who already knows how to code.
+
+## Next
+
+Continue strengthening Python fundamentals and revisit the larger AI Sadhana roadmap as I progress.
+
+---
+
+# Engineering Log — 2 October 2026
+
+## What I Worked On
+
+Today I shifted my attention to my **Learn C From Zero** repository.
+
+I spent the day focusing on that project rather than working on AI Sadhana.
+
+## What I Understood
+
+Working on separate repositories requires me to divide my attention between different learning goals. Although AI Sadhana remains an important long-term project, I also want to strengthen my programming fundamentals through C.
+
+## Reflection
+
+There was no progress on AI Sadhana today, and that is fine. I was fully focused on another repository and its development.
+
+The important thing is to keep learning without feeling that every project must receive attention every single day.
+
+## Next
+
+Return to Python fundamentals and continue developing AI Sadhana when time permits.
+
+---
+
+# Engineering Log — 3 October 2026
+
+## What I Worked On
+
+Today I revisited the Python fundamentals portion of AI Sadhana.
+
+I focused on loops and tried to return to the Python learning sequence I had started earlier.
+
+## What I Studied
+
+- Loops in Python
+- Repeating operations through program control flow
+- The role of loops in writing programs that process multiple values or perform repeated tasks
+
+## What I Understood
+
+Loops are an essential part of programming because they allow us to express repeated operations without writing the same instructions again and again.
+
+These fundamentals will become useful later when working with datasets, implementing algorithms, and experimenting with AI/ML concepts.
+
+## Reflection
+
+My attention was still moving between different repositories. I was revisiting Python, but I had not yet returned to a consistent development rhythm for AI Sadhana.
+
+## Next
+
+Continue building the programming foundation while keeping the eventual goal of understanding AI/ML in mind.
+
+---
+
+# Engineering Log — 4 October 2026
+
+## What I Worked On
+
+Today I shifted my attention to my DSA repository.
+
+The focus was on continuing my data structures and algorithms learning rather than making progress on AI Sadhana.
+
+## Reflection
+
+My learning journey currently involves multiple tracks, including programming fundamentals, DSA, mathematics, and AI/ML.
+
+Managing these tracks is challenging because each one requires consistent effort. However, the knowledge gained through programming and problem-solving will also support my long-term engineering goals.
+
+## Next
+
+Return to AI Sadhana and continue building the foundations required for a deeper understanding of artificial intelligence.
+
+---
+
+# Engineering Log — 5 October 2026
+
+## What I Worked On
+
+Today I returned to AI Sadhana with a more focused objective.
+
+I started concentrating seriously on **Deep Learning**, especially because my upcoming NPTEL Deep Learning examination required me to study the subject in depth.
+
+I also created a new folder inside AI Sadhana:
+
+```text
+Deep Learning Core/
+```
+
+This marked the beginning of a more dedicated space for organizing deep learning concepts within the repository.
+
+## What I Studied
+
+I began focusing more seriously on deep learning concepts, revisiting the material and trying to understand the ideas behind the models rather than merely memorizing definitions.
+
+## What I Understood
+
+AI Sadhana can also serve as a place where I document and strengthen my own understanding.
+
+Preparing for an examination and building an educational repository are different activities, but they can support each other when I take the time to understand a concept well enough to explain it clearly.
+
+## What I Built
+
+Created the `Deep Learning Core` folder inside AI Sadhana to organize deep learning material separately from the existing AI foundations.
+
+## Reflection
+
+This was an important shift in focus. Instead of concentrating primarily on Python fundamentals, I began spending more time understanding deep learning itself.
+
+My upcoming examination became an immediate priority, but I also wanted to use this learning process to improve AI Sadhana.
+
+## Next
+
+Continue studying deep learning in depth and document concepts when my understanding is sufficiently clear.
+
+---
+
+# Engineering Log — 6 October 2026
+
+## What I Worked On
+
+Today I continued studying deep learning in the background while keeping AI Sadhana in mind.
+
+My main focus remained on understanding the subject for my upcoming examination.
+
+## What I Studied
+
+I continued working through deep learning concepts, using the available course material to strengthen my understanding.
+
+## Reflection
+
+Not all meaningful work immediately becomes a GitHub commit.
+
+Some days are spent reading, revisiting concepts, working through explanations, and trying to understand why something works before attempting to document it.
+
+I want the material in AI Sadhana to reflect actual understanding rather than simply the number of files added to the repository.
+
+## Next
+
+Continue studying deep learning and identify concepts that can be explained clearly through AI Sadhana.
+
+---
+
+# Engineering Log — 7 October 2026
+
+## What I Worked On
+
+Today I returned to my DSA repository for some additional work.
+
+AI Sadhana was not my primary focus, as I continued balancing different learning tracks.
+
+## Reflection
+
+My progress across projects has not been perfectly linear. Some days I focus on DSA, some on programming fundamentals, and others on deep learning.
+
+The challenge is to manage these priorities without losing sight of the larger goals behind each project.
+
+## Next
+
+Continue prioritizing my upcoming deep learning examination while returning to AI Sadhana whenever I have something meaningful to document.
+
+---
+
+# Engineering Log — 8 October 2026
+
+## What I Worked On
+
+Today I did not make any GitHub updates.
+
+However, I continued studying deep learning concepts outside the repository.
+
+## What I Studied
+
+I spent time understanding deep learning material as part of my examination preparation.
+
+## Reflection
+
+A lack of commits does not necessarily mean a lack of progress.
+
+I am trying to distinguish between learning a concept, understanding it well enough to explain it, and finally implementing or documenting it in the repository.
+
+These are related but separate stages of the learning process.
+
+## Next
+
+Continue studying deep learning and document the concepts that I have understood sufficiently.
+
+---
+
+# Engineering Log — 9 October 2026
+
+## What I Worked On
+
+Today I focused on understanding **UAT (Universal Approximation Theorem)** in deep learning.
+
+After studying the concept, I documented it in the Deep Learning Core portion of AI Sadhana.
+
+## What I Studied
+
+- Universal Approximation Theorem
+- Its role in understanding the expressive power of neural networks
+- The connection between theoretical properties of neural networks and their ability to approximate functions
+
+## What I Understood
+
+The Universal Approximation Theorem is an important theoretical result that helps explain why neural networks can represent a broad range of functions under certain conditions.
+
+However, the ability to approximate a function does not automatically mean that a network will learn it efficiently or generalize well. Approximation ability and successful training are different things.
+
+Understanding this distinction is important when studying the theory behind deep learning.
+
+## What I Built
+
+Added material on the Universal Approximation Theorem to the Deep Learning Core section of AI Sadhana.
+
+## Reflection
+
+This was a useful step toward making the repository more than a collection of introductory programming notes.
+
+I want AI Sadhana to gradually cover the theory behind AI/ML concepts alongside their implementations.
+
+## Next
+
+Continue studying deep learning and document further concepts as my understanding improves.
+
+---
+
+# Engineering Log — 10 October 2026
+
+## What I Worked On
+
+Today I continued studying deep learning in preparation for my upcoming NPTEL examination.
+
+The focus remained on learning the concepts in depth rather than rushing to add more material to the repository.
+
+## What I Studied
+
+I continued working through the deep learning course material and strengthening my understanding of the concepts covered.
+
+## What I Understood
+
+Deep learning requires more than knowing the names of architectures, activation functions, and training techniques.
+
+To understand the subject properly, I need to connect the mathematical ideas, theoretical explanations, and practical behaviour of neural networks.
+
+This is especially important for the kind of educational resource I want AI Sadhana to become.
+
+## Reflection
+
+My examination was approaching, so deep learning had become one of my main priorities.
+
+Even when I was not making a new commit, the underlying learning process was continuing.
+
+## Next
+
+Continue preparing for the examination and update AI Sadhana when I have something useful and sufficiently understood to add.
+
+---
+
+# Engineering Log — 11 October 2026
+
+## What I Worked On
+
+Today I continued studying deep learning and made further improvements to my understanding of the material in AI Sadhana.
+
+I focused on connecting what I was studying for the examination with the concepts I wanted to explain in the repository.
+
+## What I Studied
+
+I continued revisiting deep learning concepts and strengthening the connections between different topics.
+
+## What I Understood
+
+A concept becomes much more useful when I can explain not only what it means but also why it matters and how it connects to other ideas.
+
+This is the standard I want to work toward while building AI Sadhana.
+
+The goal is not just to collect definitions. It is to gradually develop a coherent learning path.
+
+## Reflection
+
+I was now spending a significant amount of time on deep learning. The repository was evolving alongside my examination preparation, even if the progress was not always visible through a large number of commits.
+
+## Next
+
+Continue preparing for the examination and refine existing material where necessary.
+
+---
+
+# Engineering Log — 12 October 2026
+
+## What I Worked On
+
+Today I updated the README for the **Regularization** material in AI Sadhana.
+
+By this point, I was fully focused on deep learning and preparing for the upcoming examination.
+
+## What I Studied
+
+I continued studying deep learning, with regularization being the repository material I updated today.
+
+## What I Understood
+
+Regularization is important because a model can fit its training data too closely and perform poorly on unseen data.
+
+Understanding regularization requires thinking about the relationship between model complexity, training performance, and generalization.
+
+This topic is particularly important when studying how neural networks learn and how their performance can be improved.
+
+## What I Built
+
+Updated the README associated with the regularization material in AI Sadhana.
+
+## Reflection
+
+At this point, my attention had shifted almost completely toward deep learning.
+
+Rather than trying to progress through every part of AI Sadhana simultaneously, I was concentrating on one area that had become immediately important for both my examination and my learning.
+
+## Next
+
+Continue preparing for the deep learning examination and revisit repository material where doing so reinforces my understanding.
+
+---
+
+# Engineering Log — 13 October 2026
+
+## What I Worked On
+
+My university examinations officially started around this time.
+
+I had to balance college examination preparation with studying deep learning in the background for my upcoming NPTEL examination.
+
+## What I Studied
+
+My focus was divided between:
+
+- University coursework and examination preparation
+- Deep learning concepts for the upcoming examination
+
+## Reflection
+
+Managing multiple academic responsibilities at once is challenging.
+
+I needed to prepare for college examinations while also keeping up with deep learning. This meant that my time and attention had to be divided carefully.
+
+AI Sadhana was no longer about adding new files every day. Much of the work was now happening through studying, revising, and trying to understand the concepts properly.
+
+## Next
+
+Continue balancing university examinations with deep learning preparation, prioritizing the work that needs immediate attention.
+
+---
+
+# Engineering Log — 14 October 2026
+
+## What I Worked On
+
+Today I continued balancing university examinations with deep learning preparation.
+
+My college coursework required attention, but I was also trying to maintain my understanding of deep learning for the upcoming NPTEL examination.
+
+## What I Studied
+
+- University examination material
+- Deep learning concepts through continued revision and study
+
+## Reflection
+
+This period has been a reminder that long-term projects have to coexist with immediate academic responsibilities.
+
+I could not devote all my time to AI Sadhana, but the concepts I was studying were still relevant to the repository.
+
+For now, I needed to focus on understanding and revision rather than forcing daily repository updates.
+
+## Next
+
+Continue preparing for university examinations while keeping deep learning revision on track.
+
+---
+
+# Engineering Log — 15 October 2026
+
+## What I Worked On
+
+Today I continued managing my university examinations alongside deep learning preparation.
+
+My focus remained on college coursework and revising deep learning concepts for the upcoming NPTEL examination.
+
+## What I Studied
+
+I continued dividing my study time between university subjects and deep learning.
+
+## Reflection
+
+The last few days have been academically demanding, with multiple examinations and subjects requiring attention.
+
+Although AI Sadhana has not received the same level of active repository development as it did during the earlier Python foundation phase, the project remains connected to what I am learning.
+
+I am learning to distinguish between a period of reduced repository activity and abandoning a project altogether.
+
+## Next
+
+Continue preparing for examinations and dedicate my immediate attention to the upcoming deep learning examination.
+
+---

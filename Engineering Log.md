@@ -851,3 +851,29 @@ I am learning to distinguish between a period of reduced repository activity and
 Continue preparing for examinations and dedicate my immediate attention to the upcoming deep learning examination.
 
 ---
+
+# Engineering Log — 16 October 2026
+
+## What I Worked On
+
+Today I shifted my attention almost entirely toward the upcoming NPTEL Deep Learning examination.
+
+With the examination approaching, preparation and revision became the immediate priority.
+
+## What I Studied
+
+I focused on revising deep learning concepts and strengthening my understanding of the course material.
+
+## Reflection
+
+At this stage, I needed to prioritize preparation over repository development.
+
+AI Sadhana is a long-term project, and there is no need to force new commits when my immediate responsibility is to prepare for an examination.
+
+The knowledge I have been building during this period will remain useful when I return to documenting and organizing the concepts more systematically.
+
+## Next
+
+Complete the final revision and prepare for the examination.
+
+---

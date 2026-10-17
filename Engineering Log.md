@@ -877,3 +877,26 @@ The knowledge I have been building during this period will remain useful when I 
 Complete the final revision and prepare for the examination.
 
 ---
+# Engineering Log — 17 October 2026
+
+## What I Worked On
+
+Today was the day of my NPTEL Deep Learning examination.
+
+After spending the preceding days studying deep learning alongside university coursework and examinations, I finally reached the examination day.
+
+## Reflection
+
+The past few weeks involved balancing several responsibilities: university work, different programming repositories, and an increasingly intensive focus on deep learning.
+
+The journey was not perfectly consistent in terms of GitHub activity, but it included time spent studying concepts, revisiting foundations, and documenting selected topics in AI Sadhana.
+
+This period also reinforced an important lesson: meaningful learning does not always appear as a daily commit. Sometimes the work happens before the explanation, implementation, or documentation is ready.
+
+## What Comes Next
+
+After the examination, I want to return to AI Sadhana with a clearer understanding of the deep learning concepts I studied.
+
+The next step will be to review the existing material, identify gaps, and continue building the repository carefully rather than adding content simply to maintain activity.
+
+---

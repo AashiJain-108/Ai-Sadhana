@@ -1,3 +1,6 @@
+# What is Machine Learning(ML)?
+Machine learning is a branch of artificial intelligence (AI) that gives computers the ability to learn from data and improve their performance without being explicitly programmed. It allows machines to identify patterns, make decisions, even predict future trends-all by learning from experience, much like humans do.
+
 # Typical Machine Learning Workflow
 
 A typical ML project can be thought of as a sequence of stages:
@@ -23,6 +26,8 @@ A typical ML project can be thought of as a sequence of stages:
 # How Machines Learn
 
 ## A Different Way to Think About "Learning"
+
+To understand how machines learn, we first need to understand how data, algorithms, and models come together to make machine learning possible.
 
 > "Machines don't learn. What a typical 'learning machine' does is find a mathematical formula which, when applied to a collection of inputs (called 'training data'), produces the desired output."
 

@@ -47,6 +47,7 @@ In simplified form:
 ### Source
 
 Andriy Burkov, *The Hundred-Page Machine Learning Book*
+
 # Instance-Based Learning vs. Model-Based Learning
 
 ## 1. Introduction
@@ -101,17 +102,18 @@ When a new student arrives, KNN calculates the distances between the new student
 For example, if \(k=5\) and three of the five nearest students were placed, KNN predicts that the new student belongs to the placement class.
 
 For numerical features, Euclidean distance is one possible distance measure:
-
+$$
 \[
 d(x,z)=\sqrt{\sum_{j=1}^{m}(x_j-z_j)^2}
 \]
+$$
 
 Here:
 
-- \(x\) is the new input.
-- \(z\) is a stored training instance.
-- \(m\) is the number of features.
-- \(d(x,z)\) measures the distance between the two instances.
+- $$\(x\)$$ is the new input.
+- $$\(z\)$$ is a stored training instance.
+- $$\(m\)$$ is the number of features.
+- $$\(d(x,z)\)$$ measures the distance between the two instances.
 
 The choice of distance measure and feature scaling can significantly influence the result.
 
@@ -177,21 +179,23 @@ Consider the same student placement problem, using IQ and CGPA to predict whethe
 Logistic Regression learns coefficients from the training data and uses them to estimate the probability of a binary outcome.
 
 A simplified mathematical representation is:
-
+$$
 \[
 z=w_1x_1+w_2x_2+b
 \]
+$$
 
+$$
 \[
 P(y=1\mid x)=\frac{1}{1+e^{-z}}
 \]
-
+$$
 Here:
 
-- \(x_1,x_2\) are input features.
-- \(w_1,w_2\) are learned weights.
-- \(b\) is the bias or intercept.
-- \(P(y=1\mid x)\) is the estimated probability of the positive class.
+- $$\(x_1,x_2\)$$ are input features.
+- $$\(w_1,w_2\)$$ are learned weights.
+- $$\(b\)$$ is the bias or intercept.
+- $$\(P(y=1\mid x)\)$$ is the estimated probability of the positive class.
 
 A decision threshold can then convert the probability into a class prediction.
 

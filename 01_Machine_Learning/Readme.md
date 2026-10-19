@@ -342,6 +342,7 @@ Neither approach is universally superior. The appropriate choice depends on data
 
 1. [Scikit-learn: Nearest Neighbors](https://scikit-learn.org/stable/modules/neighbors.html) — documentation on instance-based nearest-neighbor methods.
 2. [Tom M. Mitchell, *Machine Learning*, Chapter 8: Instance-Based Learning](https://nkapila.me/masters/mitchell) — foundational discussion of instance-based learning and delayed generalization.
-3. [Introduction to Machine Learning — Wiley textbook excerpt](https://catalogimages.wiley.com/images/db/pdf/9781119602873-excerpt.pdf) — discussion of instance-based learning and related computational considerations.
-4. Gpt-5 (OpenAI product for refining thoughts into structure)
+3. https://medium.com/@mahendrakumar24325/instance-based-learning-vs-model-based-learning-a-clear-and-practical-guide-c0445ee81fab
+4. https://www.kaggle.com/discussions/getting-started/179177
+5. Gpt-5 (OpenAI product for refining thoughts into structure)
 

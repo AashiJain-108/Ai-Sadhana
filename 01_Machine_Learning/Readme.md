@@ -179,17 +179,13 @@ Consider the same student placement problem, using IQ and CGPA to predict whethe
 Logistic Regression learns coefficients from the training data and uses them to estimate the probability of a binary outcome.
 
 A simplified mathematical representation is:
-$$
-\[
+$$\[
 z=w_1x_1+w_2x_2+b
-\]
-$$
+\]$$
 
-$$
-\[
+$$\[
 P(y=1\mid x)=\frac{1}{1+e^{-z}}
-\]
-$$
+\]$$
 Here:
 
 - $$\(x_1,x_2\)$$ are input features.

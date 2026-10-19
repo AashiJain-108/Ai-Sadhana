@@ -184,8 +184,8 @@ z=w_1x_1+w_2x_2+b
 \]$$
 
 $$\[
-P(y=1\mid x)=\frac{1}{1+e^{-z}}
-\]$$
+P(y=1\mid x)]=\frac{1}{1+e^{-z}}
+\$$
 Here:
 
 - $$\(x_1,x_2\)$$ are input features.

@@ -18,8 +18,3 @@
 | **Data Drift** | "The world changed" | Shift in statistical distribution of independent variables over time causing performance loss | Learning all the rules to a game, but waking up tomorrow to find out the rules were changed |
 
 ---
-
----
-
-
-Would you like to build out more terms in this exact layout, or focus on a different subject area?

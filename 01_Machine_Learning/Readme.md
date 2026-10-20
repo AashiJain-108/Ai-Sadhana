@@ -1,6 +1,8 @@
 # What is Machine Learning(ML)?
 Machine learning is a branch of artificial intelligence (AI) that gives computers the ability to learn from data and improve their performance without being explicitly programmed. It allows machines to identify patterns, make decisions, even predict future trends-all by learning from experience, much like humans do.
 
+Machine Learning term was coined by **Arther Samuel** in **1959**
+
 # Typical Machine Learning Workflow
 
 A typical ML project can be thought of as a sequence of stages:

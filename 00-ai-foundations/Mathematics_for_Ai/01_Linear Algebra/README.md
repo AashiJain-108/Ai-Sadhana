@@ -1,6 +1,8 @@
 # Linear Algebra 
 **Structure — Linear algebra and mathematical modelling**
-why the structure you assume matters: your model can only learn relationships that its design is capable of representing, at least to the extent allowed by its parameters.
+- why the structure you assume matters?
+
+   your model can only learn relationships that its design is capable of representing, at least to the extent allowed by its parameters.
 ## Reference /Sources
 
 ### Tutorial/Courses

@@ -18,8 +18,14 @@ AI is a technique that facilitates a machine to perform all cognitive functions 
 
 “The Science and Engineering of making intelligent machines, especially intelligent Computer programs is Artificial intelligence” –JOHN MC CARTHY [Father of AI] 
 
-### AI,ML,DL
+### AI Terminologies 
 <img width="272" height="272" alt="image" src="https://github.com/user-attachments/assets/2feaba92-f058-47ab-930a-e751ed9b09e3" />
+
+
+* **Artificial Intelligence (AI):** Advanced computational systems that execute tasks typically requiring human intelligence—operating through sophisticated mathematical calculation rather than conscious thought.
+* **Machine Learning (ML):** A subset of AI focused on developing algorithms that allow computers to learn from data, improving performance and making autonomous predictions or decisions without explicit programming.
+* **Deep Learning (DL):** An advanced subset of machine learning inspired by the human brain, utilizing multiple computational layers to process complex data and recognize intricate patterns for decision-making.
+* **Neural Networks (ANNs):** The core engine of machine learning, consisting of interconnected node layers—an **input layer**, one or more **hidden layers**, and an **output layer**—modeled after biological neural connections.
 
 ### Reference/Source
 CBSE Class XI Student Handbook 

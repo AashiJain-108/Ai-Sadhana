@@ -3,14 +3,14 @@ Techniques such as descriptive statistics and visualization can be applied to th
 Gaps in data will be identified and plans to either fill or make substitutions will have to be made.
 
 ## Common Descriptive Techniques:
-- **Summary Statistics**: This includes measures like:
-- ○ Mean (average), Median, Mode
-- ○ Standard deviation, Variance
-- ○ Range (difference between the highest and lowest values)
-- ○ Percentiles (e.g., quartiles)
-- **Visualizations**: Graphs and charts to represent the data, such as:
-- ○ Bar charts
-- ○ Histograms
-- ○ Pie charts
-- ○ Box plots
-- ○ Scatter plots
+**Summary Statistics**: This includes measures like:
+-  Mean (average), Median, Mode
+-  Standard deviation, Variance
+-  Range (difference between the highest and lowest values)
+-  Percentiles (e.g., quartiles)
+ **Visualizations**: Graphs and charts to represent the data, such as:
+-  Bar charts
+-  Histograms
+-  Pie charts
+-  Box plots
+-  Scatter plots

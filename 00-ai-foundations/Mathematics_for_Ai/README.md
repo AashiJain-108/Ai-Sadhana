@@ -48,3 +48,9 @@
 
 ### Tutorial/course
 Root Access(Roadmap for Mathematics Foundation)
+
+### Books to read 
+- Introduction to Linear Algebra — Gilbert Strang.
+- A First Course in Probability — Sheldon Ross.
+- Pattern Recognition and Machine Learning — Christopher M. Bishop.
+- Mathematics for Machine Learning — Deisenroth, Faisal, and Ong.

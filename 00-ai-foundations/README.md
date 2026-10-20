@@ -17,5 +17,9 @@ CBSE also maintains an archive of material from previous academic sessions, whic
 AI is a technique that facilitates a machine to perform all cognitive functions such as perceiving, learning and reasoning that are otherwise performed by humans.
 
 “The Science and Engineering of making intelligent machines, especially intelligent Computer programs is Artificial intelligence” –JOHN MC CARTHY [Father of AI] 
+
+### AI,ML,DL
 <img width="272" height="272" alt="image" src="https://github.com/user-attachments/assets/2feaba92-f058-47ab-930a-e751ed9b09e3" />
 
+### Reference/Source
+CBSE Class XI Student Handbook 

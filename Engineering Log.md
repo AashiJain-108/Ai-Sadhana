@@ -923,3 +923,123 @@ I see this not as a day lost to inactivity, but as an intentional pause after an
 ## Next
 
 Return to my learning goals with renewed energy, review my progress, and continue building AI Sadhana with consistency and a clearer mind.
+
+# Engineering Log — 19 October 2026
+
+## What I Worked On
+
+Today I returned to the Machine Learning portion of AI Sadhana with the goal of revisiting fundamental concepts and developing a clearer, deeper understanding before documenting them in the repository.
+
+Rather than immediately jumping into writing or uploading content, I decided to spend time revisiting the concepts themselves.
+
+## What I Studied
+
+I started reading *Machine Learning Essentials* by Dhairya Parikh.
+
+I found it to be a wonderful, beginner-friendly resource that helped me revisit machine learning concepts in a more approachable way.
+
+My focus was on strengthening my understanding of the fundamentals and identifying how these concepts could be explained clearly to someone beginning their journey into machine learning.
+
+## What I Understood
+
+Revisiting a subject is different from learning it for the first time.
+
+As my understanding of AI and machine learning continues to improve, I want to revisit familiar concepts, question my existing understanding, and identify areas where my explanations can become more intuitive and precise.
+
+This is especially important for AI Sadhana because I don't want to document concepts merely because I have encountered them before. I want to understand them well enough to explain *why they work, what they mean, and how they connect to the bigger picture*.
+
+## Reflection
+
+Today was a return to the fundamentals, but with a different perspective.
+
+I am gradually realizing that building AI Sadhana is not just about learning new topics. It also involves revisiting what I already know, refining my understanding, and continuously improving how I communicate technical ideas.
+
+A beginner-friendly resource like *Machine Learning Essentials* is useful for this process because it provides another perspective through which I can examine familiar concepts.
+
+# Engineering Log — 20 October 2026
+
+## What I Worked On
+
+Happy Dussehra! Today was a university holiday, which gave me more uninterrupted time than I usually have.
+
+On regular days, I need to balance university coursework, living arrangements, and my personal learning goals. With those usual commitments taking a back seat today, I wanted to make meaningful use of the extra time.
+
+I focused on three things:
+
+- Revisiting Machine Learning concepts in greater depth.
+- Organizing the structure of AI Sadhana.
+- Establishing a baseline for transferring the Deep Learning knowledge I have gained into the repository.
+
+## What I Studied
+
+I continued revisiting Machine Learning fundamentals, focusing on developing a clearer understanding rather than simply moving from one topic to another.
+
+I also reflected on the Deep Learning concepts I had studied during my NPTEL examination preparation and how I could organize and communicate that knowledge through AI Sadhana.
+
+## What I Built
+
+I began organizing the repository further and establishing a starting point for documenting my Deep Learning knowledge.
+
+The intention is to make the transition from personal learning to structured documentation more systematic, so that the knowledge I gain does not remain scattered across notes, courses, and individual study sessions.
+
+## What I Understood
+
+Having more free time does not automatically guarantee meaningful progress. What matters is how deliberately I use that time.
+
+Today, I wanted to go beyond my usual learning routine. Instead of treating the holiday as simply additional time to study, I used it as an opportunity to revisit concepts, think about repository structure, and establish a foundation for future documentation.
+
+I am also beginning to see AI Sadhana as a continuous process of learning, organizing, explaining, and refining knowledge rather than merely a collection of completed files.
+
+## Reflection
+
+Today's motivation was simple: since I had fewer external commitments, I wanted to make the most of the opportunity.
+
+Balancing university responsibilities and independent learning on a regular basis can be demanding. Having a day with fewer interruptions allowed me to give more attention to the depth and organization of my work.
+
+The goal was not just to do more, but to make progress that would be useful beyond today.
+
+## Next
+
+Continue strengthening my understanding of Machine Learning, refine the organization of AI Sadhana, and gradually begin transferring my Deep Learning knowledge into clear, structured, and beginner-friendly documentation.
+
+# Engineering Log — 21 October 2026
+
+## What I Worked On
+
+Today I continued working on Machine Learning material for AI Sadhana.
+
+Although I did not make any updates to the repository, I continued spending time on the learning and preparation behind the material.
+
+## Reflection
+
+I realized that there is a difference between making progress and recording that progress.
+
+I was working on the material, but I forgot to document my progress on GitHub. While the learning itself remains valuable, maintaining a record of the journey is also important for tracking how AI Sadhana evolves over time.
+
+This is something I want to improve going forward.
+
+## Next
+
+Continue working on the Machine Learning material while being more consistent about documenting meaningful progress in the repository.
+
+# Engineering Log — 22 October 2026
+
+## What I Worked On
+
+I continued working on the material for AI Sadhana, focusing on the learning and preparation required to develop a stronger understanding of Machine Learning concepts.
+
+Once again, I did not make a repository update today.
+
+## Reflection
+
+These two days reminded me that consistency is not just about showing up to learn. It also involves developing a sustainable habit of recording, organizing, and sharing the work I do.
+
+I do not want to measure progress solely by the number of commits I make, but I also do not want to neglect documentation simply because I am focused on studying.
+
+**Consistency beats talent when talent is not consistent.**
+
+I want to apply this principle to AI Sadhana—not by forcing a commit every day, but by building a reliable routine that allows me to keep learning and documenting over the long term.
+
+## Next
+
+Continue developing the Machine Learning material and improve my documentation habits. My goal is to make meaningful progress consistently, even when that progress is small.

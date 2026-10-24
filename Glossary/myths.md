@@ -17,11 +17,11 @@
 
 For example:
 
-<u>$f(x) = x^2$ (Quadratic):</u> Loss landscape becomes unstable, output explodes easily, and identical outputs occur for positive and negative values.
+<u> $f(x) = x^2$ (Quadratic): </u> Loss landscape becomes unstable, output explodes easily, and identical outputs occur for positive and negative values.
 
-<u>$f(x) = \sin(x)$:</u> Causes chaotic loss surfaces with endless local minima (though useful in specialized fields like NeRFs/implicit neural representations, it fails in general classification/regression).
+<u> $f(x) = \sin(x)$: </u> Causes chaotic loss surfaces with endless local minima (though useful in specialized fields like NeRFs/implicit neural representations, it fails in general classification/regression).
 
-<u>Functions not defined everywhere:</u> Functions like $\ln(x)$ or $\sqrt{x}$ fail when inputs are $\le 0$.
+<u> Functions not defined everywhere: </u> Functions like $\ln(x)$ or $\sqrt{x}$ fail when inputs are $\le 0$.
 
 **4. Myth:** A single hidden layer with non-linearity is all you ever need in practice.
 

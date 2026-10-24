@@ -47,4 +47,13 @@ In simple words, a neural network can approximate incredibly complex functions i
 
 That's the mathematical guarantee behind its approximation capability.
 
+--- 
 **Conclusion:** This simply proves that depth alone is useless without non-linearities.
+
+### Reference/Sources 
+
+Mitesh M. Khapra Sir deep learning course freely available on youtube
+(
+Deep Learning(CS7015): Lec 9.3 Better activation functions)
+
+Images used for illustration also comes from sir course only. I hold no copyright and just used for explanation remove if required

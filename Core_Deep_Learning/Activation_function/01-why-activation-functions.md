@@ -25,7 +25,8 @@ stacking multiple layers provides no real "depth" or extra computational power. 
 <img width="627" height="427" alt="image" src="https://github.com/user-attachments/assets/d01597b8-e9dd-429d-9a8c-6073b9cf7eeb" />
 
 **Linear Decision Boundaries:** Without non-linearities, a network can only learn linear decision boundaries (like perceptrons), making it impossible to solve complex, non-linearly separable problems (such as concentric circles or separated clusters requiring curves/ellipses).
-and if you ask me how I am like are you guys even understanding my discussion about linear and non linear functions
+
+- if you ask me how I am like are you guys even understanding my discussion about linear and non linear functions [Below I explained what Linear and Non-Linear Decision Boundary are]
 
 ---
 **linear models** can only draw **flat lines, planes, or hyperplanes to separate classes**.

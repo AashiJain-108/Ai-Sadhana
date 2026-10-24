@@ -8,11 +8,11 @@
 
 suppose I have a **Linear Network**
 
-<img width="171" height="393" alt="image" src="https://github.com/user-attachments/assets/fc4bfe66-2c83-44e4-96da-c91d73b9c7ba" />
-
 Here , I have actually learned from mitesh sir to ask one simple but powerful question genuinely - **"What would happen if depth had no non-linear support?"**
 
 That's exactly what we're going to address by taking the example of a linear network.
+
+<img width="171" height="393" alt="image" src="https://github.com/user-attachments/assets/fc4bfe66-2c83-44e4-96da-c91d73b9c7ba" />
 
 Hypothetically, I replace my non-linear activation function with simple linear transformation (multiplying inputs by weights)
 

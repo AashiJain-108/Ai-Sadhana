@@ -22,7 +22,7 @@ Graph & Range: Squashes inputs into a range between 0 and 1.
 - **Midpoint:** At $x = 0 $, the function outputs 0.5.
 - **Derivative:** $\(\sigma'(x) = \sigma(x) \cdot (1 - \sigma(x))\)$
 
-- **Problems with Sigmoid Function:**
+  <u>*Problems with Sigmoid Function:*</u>
 
 **A. Vanishing Gradient Problem due to Saturation:**
  - **Saturation:** When a neuron's input is very large (positive or negative), the sigmoid function flattens out near $0$ or $1$, where its gradient $\sigma(x)(1 - \sigma(x))$ drops close to $0$.
@@ -106,15 +106,9 @@ Non-linearity: Even though it looks like straight lines, combining ReLU units ca
   $$\text{ReLU}(x) = \max(0, x)$$
 
 * **Derivative:**
-$$
-\frac{\partial \text{ReLU}(x)}{\partial x} = 
-\begin{cases} 
-0, & \text{if } x < 0 \\ 
-1, & \text{if } x > 0 
-\end{cases}
-$$
+$$\frac{\partial \text{ReLU}(x)}{\partial x}=\begin{cases}0,&\text{if } x < 0 \\ 1, & \text{if } x > 0 \end{cases}$$
 
-  *(Note: The derivative at $x = 0$ is technically undefined, but in practice, it is conventionally set to either $0$ or $1$).*
+  (Note: The derivative at $x = 0$ is technically undefined, but in practice, it is conventionally set to either $0$ or $1$).
 
   ### Dying ReLU Problem:
   

@@ -45,6 +45,8 @@ Graph & Range: Squashes inputs into a range between 0 and 1.
  <img width="491" height="426" alt="image" src="https://github.com/user-attachments/assets/2142f94f-ea2e-43cf-b0ad-2a949711e95e" />
  <img width="500" height="396" alt="image" src="https://github.com/user-attachments/assets/8b3cbd1b-e85e-42ee-9a61-adb296d2c50d" />
 
+ **it slows things down:** Because of these zigzag movements ,in a neural network, weights can't update in a direct, straight line toward the optimal values. Weight bounce back and forth in a zigzag motion, wasting computational steps and making the overall training process much slower. ultimately leading to slower convergence.
+
 **C. Computationally Expensive**
 
 Computing exponentials $\exp(x)$ makes sigmoid operations slow.  

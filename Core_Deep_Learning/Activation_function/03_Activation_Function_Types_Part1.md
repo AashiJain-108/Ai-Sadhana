@@ -101,8 +101,11 @@ Non-linearity: Even though it looks like straight lines, combining ReLU units ca
   $$\text{ReLU}(x) = \max(0, x)$$
 
 * **Derivative:**
-  $$\frac{\partial \text{ReLU}(x)}{\partial x} = \begin{cases} 0 & \text{if } x < 0 \\ 1 & \text{if } x > 0 \end{cases}$$
-  
+  $$\frac{\partial \text{ReLU}(x)}{\partial x} = \begin{cases} 
+0 & \text{if } x < 0 \\ 
+1 & \text{if } x > 0 
+\end{cases}$$
+
   *(Note: The derivative at $x = 0$ is technically undefined, but in practice, it is conventionally set to either $0$ or $1$).*
 
   

@@ -97,15 +97,24 @@ Non-linearity: Even though it looks like straight lines, combining ReLU units ca
 - Computationally very efficient (just a threshold check). 
 - Converges much faster in practice and became the standard for Convolutional Neural Networks (CNNs).
 
+ *Disadvantages:*
+ - Not differentiable at $x = 0$ (though handled programmatically in code).
+ - Not zero-centered (though techniques like Batch Normalization help resolve this).
+ - dying ReLU problem
+
 * **Function:**
   $$\text{ReLU}(x) = \max(0, x)$$
 
 * **Derivative:**
-  $$\frac{\partial \text{ReLU}(x)}{\partial x} = \begin{cases} 
-0 & \text{if } x < 0 \\ 
-1 & \text{if } x > 0 
-\end{cases}$$
+$$
+\frac{\partial \text{ReLU}(x)}{\partial x} = 
+\begin{cases} 
+0, & \text{if } x < 0 \\ 
+1, & \text{if } x > 0 
+\end{cases}
+$$
 
   *(Note: The derivative at $x = 0$ is technically undefined, but in practice, it is conventionally set to either $0$ or $1$).*
 
+  ### Dying ReLU Problem:
   

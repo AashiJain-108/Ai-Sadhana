@@ -9,7 +9,12 @@ Graph & Range: Squashes inputs into a range between 0 and 1.
 **input range = [0,1]**
 <img width="192" height="78" alt="image" src="https://github.com/user-attachments/assets/b3b9e618-2af6-4c8a-8d22-beca7e3f3077" />
 
+* **Function:**
+  $$\sigma(x) = \frac{1}{1 + e^{-x}}$$
 
+* **Derivative:**
+  $$\frac{\partial \sigma(x)}{\partial x} = \sigma(x)(1 - \sigma(x))$$
+  
 **Key Properties**
 
 - **Output Range:** Between 0 and 1 (ideal for Binary Classification based probabilities (yes/no) or(0/1)).
@@ -50,3 +55,56 @@ Graph & Range: Squashes inputs into a range between 0 and 1.
 **C. Computationally Expensive**
 
 Computing exponentials $\exp(x)$ makes sigmoid operations slow.  
+
+2. **tanh Activation Function**
+
+ Graph & Range: Squashes inputs into a range between -1 and 1.
+ 
+<img width="965" height="925" alt="image" src="https://github.com/user-attachments/assets/5fb11766-37c0-4b19-80fc-9da3ed3590d5" />
+
+**input range = [-1,1]**
+
+* **Function:**
+  $$\tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$$
+
+* **Derivative:**
+  $$\frac{\partial \tanh(x)}{\partial x} = 1 - \tanh^2(x)$$
+
+*Advantages:*
+
+**Zero-Centered:** Because its range spans from -1 to 1, its outputs are zero-centered, fixing the directional update problem of Sigmoid and leading to faster training.
+
+<img width="563" height="283" alt="image" src="https://github.com/user-attachments/assets/3ea03239-a326-4f57-9ce4-273c7f2195ef" />
+
+*Disadvantages:*
+
+**Still Saturates:** Like Sigmoid, it flattens out at extremes, meaning it still suffers from the vanishing gradient problem.
+
+Computationally expensive due to exponential calculations.
+
+3. **Rectified Linear Unit (ReLU) Activation Function**
+
+Graph & Range: Outputs $0$ for negative inputs and passes $x$ directly for positive inputs.
+
+<img width="262" height="291" alt="image" src="https://github.com/user-attachments/assets/fbaaa6f1-f8a6-48f5-9bcb-356fafc285d7" />
+
+Non-linearity: Even though it looks like straight lines, combining ReLU units can approximate complex non-linear shapes (like sigmoids).
+
+<img width="497" height="331" alt="image" src="https://github.com/user-attachments/assets/4f58615e-097e-4635-8931-17d458b7ee12" />
+
+*Advantages:*
+- Does not saturate in the positive region.  
+- Computationally very efficient (just a threshold check). 
+- Converges much faster in practice and became the standard for Convolutional Neural Networks (CNNs).
+
+* **Function:**
+  $$\text{ReLU}(x) = \max(0, x)$$
+
+* **Derivative:**
+  $$\frac{\partial \text{ReLU}(x)}{\partial x} = \begin{cases} 
+  0 & \text{if } x < 0 \\ 
+  1 & \text{if } x > 0 
+  \end{cases}$$
+  *(Note: The derivative at $x = 0$ is technically undefined, but in practice, it is conventionally set to either $0$ or $1$).*
+
+  

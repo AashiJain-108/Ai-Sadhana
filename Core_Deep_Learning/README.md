@@ -24,3 +24,4 @@ His masterfully delivered lectures served as a major cornerstone in my deep lear
 - http://neuralnetworksanddeeplearning.com/ (Neural Networks and Deep Learning is a free online book)
 - Reading a great book on deep learning by Ian Goodfellow, Yoshua Bengio and Aaron Courville
 - Deep Learning With Python, Chollet, Manning Publications, 2017
+- https://cs231n.github.io/

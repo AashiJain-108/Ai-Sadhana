@@ -37,11 +37,10 @@ Graph & Range: Squashes inputs into a range between 0 and 1.
 - $$\nabla w_2 = \frac{\partial \mathcal{L}(\mathbf{w})}{\partial y} \cdot \frac{\partial y}{\partial h_3} \cdot \frac{\partial h_3}{\partial a_3} \cdot h_{22}$$
 
 - here h21 & h22 are between [0,1] (both positive)
-- so as h21 & h22 are always positive delta w1 and delta w2 sign depends on common part  \frac{\partial \mathcal{L}(\mathbf{w})}{\partial y} \cdot \frac{\partial y}{\partial h_3} \cdot \frac{\partial h_3}{\partial a_3}$$
+- so as h21 & h22 are always positive delta w1 and delta w2 sign depends on common part  $$\frac{\partial \mathcal{L}(\mathbf{w})}{\partial y} \cdot \frac{\partial y}{\partial h_3} \cdot \frac{\partial h_3}{\partial a_3}$$
 - so if common term is positive (negative) then $delta w1$ and $delta w2$ are positive(negative) ie all gradients at a given layer tend to have the same sign (all positive or all negative)
 
 **Restricted Updates:** This forces weight updates to follow a constrained "zigzag" path rather than moving directly toward the optimal weights, leading to slower convergence.
 
-- <img width="491" height="426" alt="image" src="https://github.com/user-attachments/assets/2142f94f-ea2e-43cf-b0ad-2a949711e95e" />
-
-- <img width="500" height="396" alt="image" src="https://github.com/user-attachments/assets/8b3cbd1b-e85e-42ee-9a61-adb296d2c50d" />
+ <img width="491" height="426" alt="image" src="https://github.com/user-attachments/assets/2142f94f-ea2e-43cf-b0ad-2a949711e95e" />
+ <img width="500" height="396" alt="image" src="https://github.com/user-attachments/assets/8b3cbd1b-e85e-42ee-9a61-adb296d2c50d" />

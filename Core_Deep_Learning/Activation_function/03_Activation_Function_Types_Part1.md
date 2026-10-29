@@ -112,3 +112,13 @@ $$\frac{\partial \text{ReLU}(x)}{\partial x}=\begin{cases}0,&\text{if } x < 0 \\
 
   ### Dying ReLU Problem:
   
+If a neuron's weighted input is always negative (due to a large negative bias or weight initialization), its output is always zero, its gradient is always zero, and it never updates. It is permanently dead. In practice, 10-40% of neurons in a ReLU network can die during training.
+dead neurons donot contribute in training ie model is learning nothing for that neuron in training if somewhat more than 50% of your neurons in neural network are found to be dead then its just your model isn't learning anything
+
+I learned it from mitesh sir course also it was kind of tough to understand so refered to many videos because forming an understanding and to be true everyone had explained it from bottom to top but I found for myself top to bottom understanding much more easier, So I would explain it that manner:
+
+So start with **Gradient descent Weight Updation formula**
+
+$$w \leftarrow w - \eta \frac{\partial \mathcal{L}}{\partial w}$$
+
+here look if $$frac{\partial \mathcal{L}}{\partial w}$$

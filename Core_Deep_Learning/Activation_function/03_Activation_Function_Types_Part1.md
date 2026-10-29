@@ -44,3 +44,6 @@ Graph & Range: Squashes inputs into a range between 0 and 1.
 
  <img width="491" height="426" alt="image" src="https://github.com/user-attachments/assets/2142f94f-ea2e-43cf-b0ad-2a949711e95e" />
  <img width="500" height="396" alt="image" src="https://github.com/user-attachments/assets/8b3cbd1b-e85e-42ee-9a61-adb296d2c50d" />
+
+**C. Computationally Expensive**
+Computing exponentials ($\exp(x)$) makes sigmoid operations slow.  

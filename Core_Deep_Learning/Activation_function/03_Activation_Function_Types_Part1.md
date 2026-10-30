@@ -153,9 +153,9 @@ $$
 z = wx+b, \qquad f(z)=\max(0,z)
 $$
 
-The gradient of the loss with respect to its weight is:
+### 1. Gradient of the Loss with Respect to the Weight
 
-$$
+```math
 \frac{\partial \mathcal{L}}{\partial w}
 =
 \frac{\partial \mathcal{L}}{\partial f}
@@ -163,7 +163,31 @@ $$
 \frac{\partial f(z)}{\partial z}
 \cdot
 \frac{\partial z}{\partial w}
-$$
+```
+
+### 2. ReLU Derivative
+
+```math
+\frac{\partial f(z)}{\partial z}
+=
+\begin{cases}
+0 & \text{if } z < 0 \\
+1 & \text{if } z > 0
+\end{cases}
+```
+
+### 3. Gradient When the ReLU Input Is Negative
+
+When $z < 0$, the ReLU derivative is zero. Therefore:
+
+```math
+\frac{\partial \mathcal{L}}{\partial w}
+=
+\frac{\partial \mathcal{L}}{\partial f}
+\cdot 0 \cdot
+\frac{\partial z}{\partial w}
+= 0
+```
 
 Notice that the gradient is a product of three terms.
 
@@ -181,29 +205,54 @@ $$
 
 Its derivative is:
 
-$$
+
 \frac{\partial f(z)}{\partial z}
 =
 \begin{cases}
-0 & \text{if } z<0\\
-1 & \text{if } z>0
+0 & \text{if } z < 0 \\
+1 & \text{if } z > 0
 \end{cases}
-$$
 
 At $z=0$, the derivative is undefined mathematically; implementations typically use a derivative of zero.
 
 When $z<0$, ReLU outputs zero and its derivative is also zero.
 
 Substituting this into the backpropagation formula:
+### 1. Gradient of the Loss with Respect to the Weight
 
-$$
+```math
+\frac{\partial \mathcal{L}}{\partial w}
+=
+\frac{\partial \mathcal{L}}{\partial f}
+\cdot
+\frac{\partial f(z)}{\partial z}
+\cdot
+\frac{\partial z}{\partial w}
+```
+
+### 2. ReLU Derivative
+
+```math
+\frac{\partial f(z)}{\partial z}
+=
+\begin{cases}
+0 & \text{if } z < 0 \\
+1 & \text{if } z > 0
+\end{cases}
+```
+
+### 3. Gradient When the ReLU Input Is Negative
+
+When $z < 0$, the ReLU derivative is zero. Therefore:
+
+```math
 \frac{\partial \mathcal{L}}{\partial w}
 =
 \frac{\partial \mathcal{L}}{\partial f}
 \cdot 0 \cdot
 \frac{\partial z}{\partial w}
-=0
-$$
+= 0
+```
 
 The gradient reaching the neuron's weight becomes zero.
 

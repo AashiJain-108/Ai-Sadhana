@@ -150,7 +150,7 @@ During backpropagation, the chain rule calculates the gradient by multiplying th
 For a neuron with:
 
 $$
-z = wx+b, \qquad f(z)=\operatorname{ReLU}(z)
+z = wx+b, \qquad f(z)=\max(0,z)
 $$
 
 The gradient of the loss with respect to its weight is:

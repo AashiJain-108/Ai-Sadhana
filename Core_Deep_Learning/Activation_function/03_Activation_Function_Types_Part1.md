@@ -110,7 +110,7 @@ $$\frac{\partial \text{ReLU}(x)}{\partial x}=\begin{cases}0,&\text{if } x < 0 \\
 
   (Note: The derivative at $x = 0$ is technically undefined, but in practice, it is conventionally set to either $0$ or $1$).
 
- ### Dying ReLU Problem
+### Dying ReLU Problem
 
 **The Dying ReLU problem occurs when a ReLU neuron stops learning because its gradient becomes zero for all training inputs.**
 
@@ -120,7 +120,9 @@ Let's understand why this happens, starting from the weight update formula.
 
 During training, gradient descent updates a neuron's weight using:
 
-$$w \leftarrow w - \eta \frac{\partial \mathcal{L}}{\partial w}$$
+$$
+w \leftarrow w - \eta \frac{\partial \mathcal{L}}{\partial w}
+$$
 
 Where:
 - $w$ = current weight
@@ -129,9 +131,13 @@ Where:
 
 **What happens if the gradient becomes zero?**
 
-$$w_{\text{new}} = w_{\text{old}} - \eta(0)$$
+$$
+w_{\text{new}} = w_{\text{old}} - \eta(0)
+$$
 
-$$w_{\text{new}} = w_{\text{old}}$$
+$$
+w_{\text{new}} = w_{\text{old}}
+$$
 
 The weight does not change. Gradient descent cannot update it through this gradient.
 
@@ -143,17 +149,21 @@ During backpropagation, the chain rule calculates the gradient by multiplying th
 
 For a neuron with:
 
-$$z = wx+b, \qquad f(z)=\operatorname{ReLU}(z)$$
+$$
+z = wx+b, \qquad f(z)=\operatorname{ReLU}(z)
+$$
 
-the gradient of the loss with respect to its weight is:
+The gradient of the loss with respect to its weight is:
 
-$$\frac{\partial \mathcal{L}}{\partial w}
+$$
+\frac{\partial \mathcal{L}}{\partial w}
 =
 \frac{\partial \mathcal{L}}{\partial f}
 \cdot
 \frac{\partial f(z)}{\partial z}
 \cdot
-\frac{\partial z}{\partial w}$$
+\frac{\partial z}{\partial w}
+$$
 
 Notice that the gradient is a product of three terms.
 
@@ -165,7 +175,9 @@ This is where ReLU becomes important.
 
 The ReLU activation function is defined as:
 
-$$f(z)=\max(0,z)$$
+$$
+f(z)=\max(0,z)
+$$
 
 Its derivative is:
 
@@ -201,7 +213,9 @@ The gradient reaching the neuron's weight becomes zero.
 
 A neuron computes its weighted input as:
 
-$$z=w_1x_1+w_2x_2+\cdots+w_nx_n+b$$
+$$
+z=w_1x_1+w_2x_2+\cdots+w_nx_n+b
+$$
 
 The value of $z$ depends on the input, weights, and bias.
 

@@ -110,15 +110,125 @@ $$\frac{\partial \text{ReLU}(x)}{\partial x}=\begin{cases}0,&\text{if } x < 0 \\
 
   (Note: The derivative at $x = 0$ is technically undefined, but in practice, it is conventionally set to either $0$ or $1$).
 
-  ### Dying ReLU Problem:
-  
-If a neuron's weighted input is always negative (due to a large negative bias or weight initialization), its output is always zero, its gradient is always zero, and it never updates. It is permanently dead. In practice, 10-40% of neurons in a ReLU network can die during training.
-dead neurons donot contribute in training ie model is learning nothing for that neuron in training if somewhat more than 50% of your neurons in neural network are found to be dead then its just your model isn't learning anything
+ ### Dying ReLU Problem
 
-I learned it from mitesh sir course also it was kind of tough to understand so refered to many videos because forming an understanding and to be true everyone had explained it from bottom to top but I found for myself top to bottom understanding much more easier, So I would explain it that manner:
+**The Dying ReLU problem occurs when a ReLU neuron stops learning because its gradient becomes zero for all training inputs.**
 
-So start with **Gradient descent Weight Updation formula**
+Let's understand why this happens, starting from the weight update formula.
+
+#### 1. Start with Gradient Descent
+
+During training, gradient descent updates a neuron's weight using:
 
 $$w \leftarrow w - \eta \frac{\partial \mathcal{L}}{\partial w}$$
 
-here look if $$frac{\partial \mathcal{L}}{\partial w}$$
+Where:
+- $w$ = current weight
+- $\eta$ = learning rate
+- $\frac{\partial \mathcal{L}}{\partial w}$ = gradient of the loss with respect to the weight
+
+**What happens if the gradient becomes zero?**
+
+$$w_{\text{new}} = w_{\text{old}} - \eta(0)$$
+
+$$w_{\text{new}} = w_{\text{old}}$$
+
+The weight does not change. Gradient descent cannot update it through this gradient.
+
+But why would a neuron's gradient become zero?
+
+#### 2. Trace the Gradient Backward
+
+During backpropagation, the chain rule calculates the gradient by multiplying the derivatives along the computational path.
+
+For a neuron with:
+
+$$z = wx+b, \qquad f(z)=\operatorname{ReLU}(z)$$
+
+the gradient of the loss with respect to its weight is:
+
+$$\frac{\partial \mathcal{L}}{\partial w}
+=
+\frac{\partial \mathcal{L}}{\partial f}
+\cdot
+\frac{\partial f(z)}{\partial z}
+\cdot
+\frac{\partial z}{\partial w}$$
+
+Notice that the gradient is a product of three terms.
+
+**If even one of these terms is zero, the entire product becomes zero.**
+
+This is where ReLU becomes important.
+
+#### 3. The Zero Multiplier: ReLU's Derivative
+
+The ReLU activation function is defined as:
+
+$$f(z)=\max(0,z)$$
+
+Its derivative is:
+
+$$
+\frac{\partial f(z)}{\partial z}
+=
+\begin{cases}
+0 & \text{if } z<0\\
+1 & \text{if } z>0
+\end{cases}
+$$
+
+At $z=0$, the derivative is undefined mathematically; implementations typically use a derivative of zero.
+
+When $z<0$, ReLU outputs zero and its derivative is also zero.
+
+Substituting this into the backpropagation formula:
+
+$$
+\frac{\partial \mathcal{L}}{\partial w}
+=
+\frac{\partial \mathcal{L}}{\partial f}
+\cdot 0 \cdot
+\frac{\partial z}{\partial w}
+=0
+$$
+
+The gradient reaching the neuron's weight becomes zero.
+
+**The result:** Gradient descent cannot update that neuron's weights through this path. Its bias also receives a zero gradient from this neuron for that input.
+
+#### 4. When Does a Neuron Die?
+
+A neuron computes its weighted input as:
+
+$$z=w_1x_1+w_2x_2+\cdots+w_nx_n+b$$
+
+The value of $z$ depends on the input, weights, and bias.
+
+If $z<0$, the neuron outputs zero. This is normal behaviour for ReLU and does not, by itself, mean the neuron is dead.
+
+The problem arises when the neuron produces a negative $z$ **for every training input**.
+
+In that case:
+- Its ReLU output remains zero.
+- Its ReLU derivative remains zero.
+- Its gradients with respect to its weights and bias remain zero.
+- Gradient descent cannot revive it through ordinary backpropagation.
+
+The neuron has become a *dead ReLU*.
+
+This can happen when weight updates and bias changes push the neuron into a state where its weighted input stays negative across the training data.
+
+#### 5. Why Is This a Problem?
+
+A dead neuron contributes no activation to the next layer for any training input. It also stops learning through the usual gradient-based updates.
+
+Consequently, the network loses a unit that could otherwise learn useful patterns.
+
+If many neurons die, the network's effective capacity to learn can decrease.
+
+However, **there is no universal 50% threshold** beyond which a network stops learning. The impact depends on the network architecture, which neurons have died, and how much useful capacity remains.
+
+#### Key Takeaway
+
+**A ReLU neuron dies when its input stays in the negative region for all training examples, causing its gradient to remain zero and preventing it from learning through ordinary backpropagation.**

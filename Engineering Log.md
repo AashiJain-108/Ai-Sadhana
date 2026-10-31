@@ -1043,3 +1043,243 @@ I want to apply this principle to AI Sadhana—not by forcing a commit every day
 ## Next
 
 Continue developing the Machine Learning material and improve my documentation habits. My goal is to make meaningful progress consistently, even when that progress is small.
+
+# Engineering Log — 23 October 2026
+
+## What I Worked On
+
+Today I spent some time working on my DSA laboratory work, conducting a few experiments, and developing a rough self-model of the work I was doing.
+
+Alongside that, I revisited AI Sadhana to review the repository and maintain a connection with its ongoing development.
+
+## What I Understood
+
+Experimentation is an important part of learning. Working through laboratory tasks gives me an opportunity to test ideas practically rather than limiting myself to theoretical understanding.
+
+I also realized the importance of periodically revisiting AI Sadhana to keep track of its structure and direction as I continue learning.
+
+## Reflection
+
+My attention continues to be divided between university responsibilities, DSA, and AI Sadhana.
+
+Although I could not dedicate the entire day to the repository, I made time to revisit it while managing my other academic commitments.
+
+## Next
+
+Continue developing my practical problem-solving skills while keeping AI Sadhana as my primary long-term learning project.
+
+---
+
+# Engineering Log — 24 October 2026
+
+## What I Worked On
+
+Today I revisited my **Data Science Applied** repository.
+
+I explored the project and reflected on its purpose, its potential direction, and how it could fit into my broader learning journey.
+
+## What I Understood
+
+Data Science Applied and AI Sadhana serve different purposes.
+
+AI Sadhana is currently my primary focus, where I want to develop a strong conceptual foundation in Artificial Intelligence, Machine Learning, and Deep Learning.
+
+Data Science Applied is intended to provide a separate space for practical data science work and experimentation.
+
+Both projects are valuable, but trying to develop them with equal intensity right now would divide my attention.
+
+## Reflection
+
+I decided that Data Science Applied deserves dedicated attention rather than occasional, disconnected updates.
+
+Given my current university responsibilities and the work I want to complete in AI Sadhana, I would rather prioritize one project properly than spread my available time too thinly across multiple repositories.
+
+This is a decision about sequencing my goals, not abandoning them.
+
+## Next
+
+Continue prioritizing AI Sadhana and return to Data Science Applied when I can give it the time and attention it deserves.
+
+---
+
+# Engineering Log — 25 October 2026
+
+## What I Worked On
+
+Today I continued transferring the knowledge I gained during my NPTEL Deep Learning course into AI Sadhana.
+
+The focus was on converting my understanding of Deep Learning concepts into structured material that could become part of the repository.
+
+## What I Studied
+
+I revisited the concepts I had studied during the course and reflected on how to explain them clearly and coherently.
+
+## What I Understood
+
+There is a difference between studying a concept for an examination and understanding it well enough to teach it to someone else.
+
+While examination preparation often requires efficient revision and recall, documenting a concept for AI Sadhana requires me to think about its foundations, intuition, mathematical explanation, and connections to other topics.
+
+This process helps me identify gaps in my own understanding while improving the educational value of the repository.
+
+## Reflection
+
+My focus is gradually shifting from preparing for the Deep Learning examination to making the knowledge I gained useful beyond the examination itself.
+
+I want the concepts I studied to become part of a structured learning resource rather than remain confined to examination notes.
+
+## Next
+
+Continue documenting Deep Learning concepts in AI Sadhana, prioritizing clarity and conceptual understanding over simply increasing the amount of content.
+
+---
+
+# Engineering Log — 26 October 2026
+
+## What I Worked On
+
+Today I spent time working on a separate private repository.
+
+The project is still under development, so I am keeping its details private for now.
+
+## Reflection
+
+Not every project needs to be public from its earliest stages.
+
+Working privately gives me the flexibility to experiment, make mistakes, change direction, and develop the project before deciding how much of the process I want to share.
+
+For now, I am focusing on the work itself rather than making the project publicly visible.
+
+## Next
+
+Continue developing the private project while maintaining my priorities across university work and AI Sadhana.
+
+---
+
+# Engineering Log — 27 October 2026
+
+## What I Worked On
+
+Today I continued working on my private repository.
+
+The project remains under development, and I am keeping its details confidential until I am ready to share more about it.
+
+## Reflection
+
+I am exploring ideas and working on something outside my publicly visible repositories.
+
+This is also part of my broader learning journey. Not every experiment needs to become public immediately, and not every project needs to be documented before its direction becomes clear.
+
+For now, I want to give the work room to develop.
+
+## Next
+
+Continue making progress on the private project while keeping my longer-term learning goals in view.
+
+---
+
+# Engineering Log — 28 October 2026
+
+## What I Worked On
+
+Today I continued developing the private repository I have been working on over the past few days.
+
+I am keeping the project private for now, as I want to continue working on it before sharing its details.
+
+## Reflection
+
+Building something independently involves more than writing code. It also involves making decisions, exploring possible approaches, and allowing ideas to evolve as the work progresses.
+
+I want to give this project the space it needs to develop without feeling pressured to make every stage publicly visible.
+
+## Next
+
+Continue working on the project and return to my AI Sadhana material as planned.
+
+---
+
+# Engineering Log — 29 October 2026
+
+## What I Worked On
+
+Today I returned to AI Sadhana and continued converting the knowledge I gained from my NPTEL Deep Learning course into structured repository material.
+
+My focus was on transferring what I had learned into explanations that could be useful to someone studying Deep Learning from the ground up.
+
+## What I Understood
+
+Learning does not end when a course or examination is completed.
+
+Revisiting concepts after the immediate pressure of an examination provides an opportunity to examine them more carefully and understand how they fit into the larger picture.
+
+By documenting these concepts, I can also move beyond remembering individual topics toward building a more connected understanding of Deep Learning.
+
+## Reflection
+
+I want AI Sadhana to reflect the understanding I develop over time, not simply the sequence of courses I complete.
+
+This means taking the time to revisit material, refine explanations, and identify missing connections before considering a topic sufficiently documented.
+
+## Next
+
+Continue transferring my Deep Learning knowledge into AI Sadhana and strengthen the clarity and structure of the existing material.
+
+---
+
+# Engineering Log — 30 October 2026
+
+## What I Worked On
+
+Today I continued working on AI Sadhana, focusing on documenting the Deep Learning knowledge I gained during my NPTEL course.
+
+The priority remained transforming my learning into structured, understandable material rather than merely recording isolated definitions or formulas.
+
+## What I Understood
+
+A learning repository becomes more useful when its material is organized around understanding rather than simply the order in which topics were encountered.
+
+I want someone exploring AI Sadhana to be able to follow the reasoning behind a concept, understand why it matters, and gradually connect it with other ideas in Artificial Intelligence and Deep Learning.
+
+Achieving this requires revisiting the material and refining how it is presented.
+
+## Reflection
+
+I am continuing the process of turning personal learning into a more organized educational resource.
+
+This stage may involve more careful thinking and refinement than simply adding new topics, but it is necessary if I want AI Sadhana to develop into the kind of repository I originally envisioned.
+
+## Next
+
+Continue documenting Deep Learning concepts and improve the connections between the material already present in the repository.
+
+---
+
+# Engineering Log — 31 October 2026
+
+## What I Worked On
+
+Today I continued converting the knowledge I gained from my NPTEL Deep Learning course into AI Sadhana.
+
+This continued the work I had been doing over the previous few days: revisiting Deep Learning concepts and translating my understanding into structured educational material.
+
+## What I Understood
+
+My original goal for AI Sadhana was to explain Artificial Intelligence from the ground up through intuition, foundations, mathematics, code, experiments, and engineering ideas.
+
+The process of documenting Deep Learning is helping me work toward that goal while also revealing the importance of organizing concepts in a way that makes sense to a beginner.
+
+I need to consider not only whether a topic is covered, but also whether the explanation provides enough context for someone encountering it for the first time.
+
+## Reflection
+
+October has involved several different phases of work.
+
+I moved between university responsibilities, programming practice, independent projects, Machine Learning revision, and preparation for my Deep Learning examination. More recently, I have been focusing on transferring the knowledge I gained into AI Sadhana.
+
+The repository continues to evolve alongside my own understanding.
+
+I want to keep improving both: learning the concepts more deeply and building a resource that explains them clearly to others.
+
+## Next
+
+Continue developing AI Sadhana with an emphasis on conceptual clarity, mathematical foundations, and a coherent learning progression. The priority is to make the material genuinely useful rather than simply make the repository larger.

@@ -16,3 +16,4 @@
 - Neural Networks from Scratch in Python -> sentdex [posted on this youtube channel]
 - Neural Networks: Zero to Hero -> by Andrej Karpathy [youtube channel]
 - On Deep Learning by Ian Goodfellow et al: Chapter-by-Chapter -> Sardor Abdirayimov [ youtube channel ]
+- Stanford Seminar - Can the brain do back-propagation? Geoffrey Hinton ->Stanford Online [https://www.youtube.com/watch?v=VIRCybGgHts]

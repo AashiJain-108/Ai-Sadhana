@@ -25,3 +25,4 @@ His masterfully delivered lectures served as a major cornerstone in my deep lear
 - Reading a great book on deep learning by Ian Goodfellow, Yoshua Bengio and Aaron Courville
 - Deep Learning With Python, Chollet, Manning Publications, 2017
 - https://cs231n.github.io/
+- https://www.youtube.com/watch?v=yUmDRxV0krg [Yann LeCun | Self-Supervised Learning, JEPA, World Models, and the future of AI |Harvard CSMA]

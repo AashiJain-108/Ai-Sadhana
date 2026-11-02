@@ -15,3 +15,4 @@
 - Modern computer vision | IIT Madras -> NPTEL-NOC IITM 
 - Neural Networks from Scratch in Python -> sentdex [posted on this youtube channel]
 - Neural Networks: Zero to Hero -> by Andrej Karpathy [youtube channel]
+- On Deep Learning by Ian Goodfellow et al: Chapter-by-Chapter -> Sardor Abdirayimov [ youtube channel ]

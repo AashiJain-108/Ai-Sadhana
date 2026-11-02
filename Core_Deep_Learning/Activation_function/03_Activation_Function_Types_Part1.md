@@ -205,13 +205,14 @@ $$
 
 Its derivative is:
 
-
+```math
 \frac{\partial f(z)}{\partial z}
 =
 \begin{cases}
 0 & \text{if } z < 0 \\
 1 & \text{if } z > 0
 \end{cases}
+```
 
 At $z=0$, the derivative is undefined mathematically; implementations typically use a derivative of zero.
 

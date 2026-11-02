@@ -1,0 +1,17 @@
+# From where I learnt personally
+Deep Learning -> iit roper by mitesh m. khapra
+Deep Learning -> bs degree by mitesh m. khapra(quick go through)
+100 days of Deep Learning -> campusx [youtube channel]
+Foundations of Deep Learning: Concepts and Applications -> by NPTEL - Indian Institute of Science, Bengaluru
+NOC July 2019 : Deep Learning -> NPTEL IIT Kharagpur 
+Deep Learning (STAT 940) , Fall 2023 -> Data Science Courses 
+(Old) Lecture Series | Introduction to Deep Learning, 11-785, Fall 2019 -> Carnegie Mellon University Deep Learning 
+Deep Learning Book Videos -> by Sabyasachi Sahoo[youtube channel]
+MIT 6.7960 Deep Learning, Fall 2024 -> MIT OpenCourseWare
+MIT 6.S191: Introduction to Deep Learning -> Alexander Amini [posted by this youtube channel]
+[Coursera] Neural Networks for Machine Learning — Geoffrey Hinton -> by Colin McDonnell [posted on this youtube channel]
+Deep Learning With Tensorflow 2.0, Keras and Python -> codebasics 
+Deep Learning for Computer Vision -> NPTEL-NOC IITM 
+Modern computer vision | IIT Madras -> NPTEL-NOC IITM 
+Neural Networks from Scratch in Python -> sentdex [posted on this youtube channel]
+Neural Networks: Zero to Hero -> by Andrej Karpathy [youtube channel]
